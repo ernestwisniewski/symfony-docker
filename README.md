@@ -7,8 +7,9 @@ A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony
 ## Getting Started
 
 1. If not already done, [install Docker Compose](https://docs.docker.com/compose/install/)
-2. Run `docker-compose up` (the logs will be displayed in the current shell)
-3. Open `https://localhost` in your favorite web browser and [accept the auto-generated TLS certificate](https://stackoverflow.com/a/15076602/1352334)
+2. Run `docker-compose build --pull --no-cache` to build fresh images
+3. Run `docker-compose up` (the logs will be displayed in the current shell)
+4. Open `https://localhost` in your favorite web browser and [accept the auto-generated TLS certificate](https://stackoverflow.com/a/15076602/1352334)
 
 ## Features
 
@@ -25,10 +26,11 @@ A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony
 ## Docs
 
 1. [Build options](docs/build.md)
-2. [Support for extra services](docs/extra-services.md)
-3. [Deploying in production](docs/production.md)
-4. [Installing Xdebug](docs/xdebug.md)
-5. [Troubleshooting](docs/troubleshooting.md)
+2. [Using Symfony Docker with an existing project](docs/existing-project.md)
+3. [Support for extra services](docs/extra-services.md)
+4. [Deploying in production](docs/production.md)
+5. [Installing Xdebug](docs/xdebug.md)
+6. [Troubleshooting](docs/troubleshooting.md)
 
 ## Credits
 
